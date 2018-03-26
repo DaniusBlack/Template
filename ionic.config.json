@@ -1,0 +1,17 @@
+{
+  "name": "myapp",
+  "app_id": "604a3783",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ],
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic1"
+}
